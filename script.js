@@ -16,14 +16,15 @@ class Person {
         this._age = newAge;
     }
 }
+
 class Student extends Person {
-    study() {
+	study() {
         console.log(`${this.name} is studying.`);
     }
 }
 
 class Teacher extends Person {
-	teach() {
+    teach() {
         console.log(`${this.name} is teaching.`);
     }
 }
